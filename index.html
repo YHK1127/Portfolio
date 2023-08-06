@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c2342f31f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 style="font-size:60px;font-family:Poppins,sans-serif;font-weight: bold;"><span style="color:purple;font-size: 80px;">Y</span><span style="color:white">ugendra</span></h1>
+            <!--img src="images/logo.png" class="logo"-->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div clas="header-text">
+            <!--h3 style="font-family: Poppins,sans-serif;margin-top: 220px;">Software Developer</h3><br-->
+            <p style="font-size:40px;margin-top: 180px;font-family: Poppins,sans-serif;">Hi, I'm <span style="color: purple;">Yugendra</span></p>
+            <p style="font-size:30px;font-family: Poppins,sans-serif;color:white">I'm a <span style=color:purple; class="o" data-wait="3000" data-words='["Developer","Designer","Student"]'></span></p>
+            <p style="font-size:30px;font-family: Poppins,sans-serif;">From India</p>
+        </div>
+    </div>
+</div>
+<!-----------about------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="font-family: Poppins,sans-serif;">Meet an extraordinary individual with a passion for creativity and a relentless drive for excellence. With a diverse skill set spanning on Problem-solving, Adaptability,Time Management and Critical Thinking, I thrive on tackling unique challenges and bringing innovative ideas to life. Welcome to my portfolio, where you'll witness the power of dedication and ingenuity in action.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('certifications')">Certifications</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>C Language</span></li>
+                    <li><span>C++</span></li>
+                    <li><span>Python</span></li>
+                    <li><span>SQL</span></li>
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    
+            </div>
+            <div class="tab-contents" id="certifications">
+                <ul>
+                    <li><span><a target="_blank" style="color: purple;text-decoration: none;"href="https://www.coursera.org/account/accomplishments/specialization/certificate/T3DZ9G5VEE4Y">Google Data Analytics April 2023  </a></span></li>
+                    <li><span><a target="_blank" style="color: purple;text-decoration: none;"href="https://cert.diceid.com/fsn/cid/Pi6Lxg">Artificial Intelligence Foundation from Wipro FutureSkills March 2023  </a></span></li>
+                    <li><span><a target="_blank" style="color: purple;text-decoration: none;"href="https://coursera.org/verify/7Y4JLLD4E7ZP">Algorithmic Toolbox July 2022  </a></span></li>
+                    <li><span><a target="_blank" style="color: purple;text-decoration: none;"href="https://coursera.org/verify/6PJ9AV6MXAMT">Object Oriented Programming in Java July 2022  </a></span></li>
+                    <li><span><a target="_blank" style="color: purple;text-decoration: none;"href="https://www.credly.com/badges/7c1f6e6b-1432-4792-b0d2-3c21aade4cc7/public_url">Microsoft Technology Associate Introduction to Programming using Python June 2022</a></span></li>
+        
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022 - Present <br>
+                        <span style="color:white;font-family: poppins,sans-serif">B.Tech in CSE(HONORS) from GMR Institute of Technology<br><span style="font-size: 10px;" > CGPA: 9.25</span></span> </span></li>
+                    <li><span>2020 - Present <br>
+                        <span style="color:white;font-family: poppins,sans-serif">B.Tech in CSE from GMR Institute of Technology<br><span style="font-size: 10px;" > CGPA: 8.7</span></span> </span></li>
+                    <li><span>2016 - 2018 <br>
+                        <span style="color:white;font-family: poppins,sans-serif">Intermediate(MPC) from Sasi New Gen Junior College<br> <span style="font-size: 10px;" > Percentage: 98.2</span></span></span></li>
+                    <li><span>2016<br><span style="color:white;font-family: poppins,sans-serif">Matriculation from Montessori School<br> <span style="font-size: 10px;" > Percentage: 98</span></span></span></li>
+                    
+                    
+            </div>
+            
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-------services----->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2 style="font-weight: 500;">University Management System</h2>
+                <p style="font-size: 20px;">Frontend website for University Management System</p>
+                <a style="text-decoration: none;" href="#" title="Click here to view" target="_blank">University Management System</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud-bolt"></i>
+                <h2 style="font-weight: 500;">Weather App</h2><br>
+                <p style="font-size: 20px;">Gives current weather report based on entered location</p>
+                <a style="text-decoration: none;" href="#" title="Click here to view" target="_blank">Weather App using API</a>
+            </div>
+            <div>    
+                <i class="fa-solid fa-image"></i>
+                <h2 style="font-weight: 500;">Text-to-Image Generation</h2><br>
+                <p style="font-size: 20px;">Gives images based on given input text</p>
+                <a style="text-decoration: none;" href="#" title="Click here to view" target="_blank">Text-to-Image Generation</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!------------------portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+       <div class="work-list">
+        <div class="work"><a style="text-decoration: none;" href="https://www.hackerrank.com/Yugi_27?hr_r=1" title="Click here to view profile" target="_blank"><img src="images/hackerrank.png"></a></div>
+        <div class="work"><a style="text-decoration: none;" href="https://www.codechef.com/users/cse_594" title="Click here to view profile" target="_blank"><img src="images/codechef.jpg"></a></div>
+        <div class="work"><a style="text-decoration: none;" href="https://leetcode.com/Yugi_27" title="Click here to view profile" target="_blank"><img src="images/leetcode.png"></a></div>
+       </div>
+       <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-arrow-up-right-from-square"></i>kyhkumar2000@gmail.com</p>
+                <p><i class="fa-solid fa-arrow-up-right-from-square"></i>yugendra3946@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>+91 6304248182</p>
+                <p><i class="fa-solid fa-mobile"></i>+91 9515645208</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/YugendraResume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <pre></pre><p>Created By <span style="color: purple;">Yugendra</span>| &copy 2023  All  rights  reserved  </p></pre>
+    </div>
+</div>
+<script>
+    const TypewWriter=function(txtElement,words,wait=3000){
+     this.txtElement=txtElement;
+     this.words=words;
+     this.txt='';
+     this.wordIndex=0;
+     this.wait=parseInt(wait,10);
+     this.type();
+     this.isdeleting=false;
+     } 
+     TypewWriter.prototype.type=function(){
+         const current=this.wordIndex %this.words.length;
+         const fullTxt=this.words[current];
+         if(this.isdeleting){
+            this.txt=fullTxt.substring(0,this.txt.length - 1);
+         }
+         else
+         {
+             this.txt=fullTxt.substring(0,this.txt.length + 1);
+             }
+             this.txtElement.innerHTML=`<span class="txt">${this.txt}</span>`;
+             let typeSpeed=300;
+             if(this.isdeleting){
+                 typeSpeed/=2;
+             }
+             if(!this.isdeleting && this.txt===fullTxt){
+                 typeSpeed=this.wait;
+                 this.isdeleting=true;
+             }
+             else if(this.isdeleting && this.txt===''){
+                 this.isdeleting=false;
+                 this.wordIndex++;
+             }
+         setTimeout(()=>this.type(),500);
+     }
+     document.addEventListener('DOMContentLoaded',init);
+     function init(){
+         const txtElement=document.querySelector('.o');
+         const words=JSON.parse(txtElement.getAttribute('data-words'));
+         const wait=txtElement.getAttribute('data-wait');
+         new TypewWriter(txtElement,words,wait);
+
+     }
+</script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx4Sc7PPLBeXGJ4G6j7j3x5Cq_3rrpWm0wlEwTGqg7-77gfbaHj-eqB2kpIQiK5m_fA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message sent successfully"
+    setTimeout(function(){
+        msg.innerHTML=""
+    },5000)
+    form.reset()
+})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
